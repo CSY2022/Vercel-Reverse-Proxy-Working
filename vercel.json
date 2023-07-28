@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    {"source": "raw.githubusercontent.com/(.*)", "destination": "raw.githubusercontent.com"}
+    {"src": "/(.*)", "dest": "raw.githubusercontent.com/$1"}
   ]
 }
